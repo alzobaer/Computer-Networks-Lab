@@ -51,7 +51,7 @@ public class SendingEmailUsingSMTPServer {
         //send("RCPT TO:<asifzaman3180@gmail.com>\r\n");
         send("RCPT TO:<alzobaer1998@gmail.com>\r\n");
         send("RCPT TO:<al.zobaer@yahoo.com>\r\n");
-        send("RCPT TO:<joykarmoker353@gmail.com>\r\n");
+        //send("RCPT TO:<joykarmoker353@gmail.com>\r\n");
 
 
         Thread.sleep(delay);
