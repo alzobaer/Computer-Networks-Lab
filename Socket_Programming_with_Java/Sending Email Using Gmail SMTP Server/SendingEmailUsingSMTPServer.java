@@ -11,7 +11,7 @@ public class SendingEmailUsingSMTPServer {
     public static void main(String[] args) throws Exception {
         int delay = 1000;
         String user = "s1810376119@ru.ac.bd";
-        String pass = "@Samrat1998";
+        String pass = "**********"; // put original password of provided email
         String username = new String(Base64.getEncoder().encode(user.getBytes()));
         String password = new String(Base64.getEncoder().encode(pass.getBytes()));
         SSLSocketFactory sslsocketfactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
@@ -48,11 +48,10 @@ public class SendingEmailUsingSMTPServer {
         Thread.sleep(delay);
         System.out.println("SERVER: " + br.readLine());
 
-        //send("RCPT TO:<asifzaman3180@gmail.com>\r\n");
+        // send("RCPT TO:<asifzaman3180@gmail.com>\r\n");
         send("RCPT TO:<alzobaer1998@gmail.com>\r\n");
         send("RCPT TO:<al.zobaer@yahoo.com>\r\n");
-        //send("RCPT TO:<joykarmoker353@gmail.com>\r\n");
-
+        // send("RCPT TO:<joykarmoker353@gmail.com>\r\n");
 
         Thread.sleep(delay);
         System.out.println("SERVER: " + br.readLine());
