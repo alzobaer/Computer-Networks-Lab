@@ -10,8 +10,8 @@ public class SendingEmailUsingSMTPServer {
 
     public static void main(String[] args) throws Exception {
         int delay = 1000;
-        String user = "s1810376119@ru.ac.bd";
-        String pass = "**********"; // put original password of provided email
+        String user = "s1810376119@ru.ac.bd";  //you must enable "less secure app" option from your provided email
+        String pass = "@Samrat1998"; // put original password of provided email
         String username = new String(Base64.getEncoder().encode(user.getBytes()));
         String password = new String(Base64.getEncoder().encode(pass.getBytes()));
         SSLSocketFactory sslsocketfactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
