@@ -1,4 +1,5 @@
 // here I used 4 PC under 1 switch and created two virtual LAN (vlan10 and vlan20). Every VLAN has two PC only. 
+// run the following commands
 
 Switch>enable
 Switch#config terminal

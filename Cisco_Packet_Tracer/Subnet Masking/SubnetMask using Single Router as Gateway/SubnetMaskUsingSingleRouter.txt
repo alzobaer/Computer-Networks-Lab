@@ -2,8 +2,8 @@
 Here we will use Routers as gateway.
 ========================================
 Step-1: Set ip on every PC.
-Step-2: Set Subnet Mask 192.168.5.1 on every Computer in Network A .
-Step-3: Set Subnet Mask 192.168.6.1 on every Computer in Network B .
+Step-2: Set Default Gateway 192.168.5.1 and Subnet Mask 255.255.255.0 on every Computer in Network A .
+Step-3: Set Default Gateway 192.168.6.1 and Subnet Mask 255.255.255.0 on every Computer in Network B .
 Step-4: Set ip on Gig0/0/0 port of Router as 192.168.5.1
 Step-5: Set ip on Gig0/0/0 port of Router2 as 192.168.6.1
 
