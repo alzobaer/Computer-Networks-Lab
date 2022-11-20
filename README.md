@@ -3,13 +3,9 @@
 LESSON PLAN
 
 CSE 3152          : COMPUTER NETWORKS LAB
-
 Total Credit      : 01
-
 Total Marks       : 25
-
 Total no of Weeks : 13 
-
 Final Exam        : 17½ (70% of total marks)
 Quiz/Viva-voce/CA : 05(20% of total marks)
 Attendance        : 2½(10% of total marks)
