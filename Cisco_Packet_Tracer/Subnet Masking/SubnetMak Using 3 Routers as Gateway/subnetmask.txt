@@ -41,7 +41,7 @@ Router(config-if)# exit
 
 //Setting ip on port gig0/0/1 For Router3
 Router(config)# interface gigabitEthernet 0/0/0
-Router(config-if)# ip address 11.11.11.1 255.255.255.0
+Router(config-if)# ip address 10.10.11.1 255.255.255.0
 Router(config-if)# no shutdown
 Router(config-if)# exit 
 Router(config)# do write memory

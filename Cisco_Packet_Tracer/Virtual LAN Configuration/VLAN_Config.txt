@@ -1,27 +1,31 @@
-// here I used 4 PC under 1 switch and created two virtual LAN (vlan10 and vlan20). Every VLAN has two PC only. 
-// run the following commands
+// here I have used 4 PC under 1 switch and created two virtual LAN (vlan10 and vlan20). Every VLAN has two PC only. 
+// run the following CLI commands in the switch.
 
 Switch>enable
 Switch#config terminal
 
+// configuring port 0/1
 Switch(config)#interface fastEthernet0/1
 Switch(config-if)#switchport mode access
 Switch(config-if)#switchport access vlan 10
 Switch(config-if)#no shutdown
 Switch(config-if)#exit
 
+// configuring port 0/2
 Switch(config)#interface fastEthenet0/2
 Switch(config-if)#switchport mode access
 Switch(config-if)#switchport access vlan 10
-Switch(config-if)#no shutdown
+Switch(config-if)#no shutdown or "no shut"
 Switch(config-if)#exit
 
+// configuring port 0/3
 Switch(config)#interface fastEthernet fa0/3
 Switch(config-if)#switchport mode access
 Switch(config-if)#switchport access vlan 20
 Switch(config-if)#no shutdown
 Switch(config-if)#exit
 
+// configuring port 0/4
 Switch(config)#interface fastEthernet0/4
 Switch(config-if)#switchport mode access
 Switch(config-if)#switchport access vlan 20
@@ -29,3 +33,7 @@ Switch(config-if)#no shutdown
 Switch(config-if)#exit
 
 Switch(config)#do write memory
+
+// let's try message passing.
+
+.........Thank you............
